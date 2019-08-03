@@ -30,3 +30,4 @@ C:\dev\ConferencePlanner2019\FrontEnd\obj\Debug\netcoreapp2.2\FrontEnd.Views.pdb
 C:\dev\ConferencePlanner2019\FrontEnd\obj\Debug\netcoreapp2.2\FrontEnd.csproj.CopyComplete
 C:\dev\ConferencePlanner2019\FrontEnd\obj\Debug\netcoreapp2.2\FrontEnd.dll
 C:\dev\ConferencePlanner2019\FrontEnd\obj\Debug\netcoreapp2.2\FrontEnd.pdb
+C:\Dev\ConferencePlanner2019\FrontEnd\obj\Debug\netcoreapp2.2\Razor\Pages\Session.g.cshtml.cs

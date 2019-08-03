@@ -63,20 +63,23 @@ namespace FrontEnd
             //Http Client with base URL to point to BackEnd Apllication
             services.AddHttpClient<IApiClient, ApiClient>(client =>
             {
-                  // client.ClientCredentials.ServiceCertificate.SslCertificateAuthentication = 
+                // client.ClientCredentials.ServiceCertificate.SslCertificateAuthentication = 
                 //     new X509ServiceCertificateAuthentication()
                 //     {
                 //         CertificateValidationMode = X509CertificateValidationMode.None,
                 //         RevocationMode = X509RevocationMode.NoCheck
                 //     };
 
-        //               HttpClientHandler clientHandler = new HttpClientHandler();
-        // clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
-        
-        // // Pass the handler to httpclient(from you are calling api)
-        //  client = new HttpClient(clientHandler);
+                //               HttpClientHandler clientHandler = new HttpClientHandler();
+                // clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
 
-                client.BaseAddress = new Uri("https://localhost:5001/");
+                // // Pass the handler to httpclient(from you are calling api)
+                //  client = new HttpClient(clientHandler);
+                
+
+
+                client.BaseAddress = new Uri("https://localhost:44342/");
+                //client.BaseAddress = new Uri("https://localhost:5001/");
                 // client.BaseAddress = new Uri(Configuration["ServiceUrl"]);
         
          

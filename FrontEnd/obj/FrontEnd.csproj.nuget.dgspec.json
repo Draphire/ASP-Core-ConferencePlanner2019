@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\ConferencePlanner2019\\Frontend\\FrontEnd.csproj": {}
+    "C:\\Dev\\ConferencePlanner2019\\FrontEnd\\FrontEnd.csproj": {}
   },
   "projects": {
     "C:\\Dev\\ConferencePlanner2019\\ConferenceDTO\\ConferenceDTO.csproj": {
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Dev\\ConferencePlanner2019\\Frontend\\FrontEnd.csproj": {
+    "C:\\Dev\\ConferencePlanner2019\\FrontEnd\\FrontEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\ConferencePlanner2019\\Frontend\\FrontEnd.csproj",
+        "projectUniqueName": "C:\\Dev\\ConferencePlanner2019\\FrontEnd\\FrontEnd.csproj",
         "projectName": "FrontEnd",
-        "projectPath": "C:\\Dev\\ConferencePlanner2019\\Frontend\\FrontEnd.csproj",
+        "projectPath": "C:\\Dev\\ConferencePlanner2019\\FrontEnd\\FrontEnd.csproj",
         "packagesPath": "C:\\Users\\Dmnoz\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\ConferencePlanner2019\\Frontend\\obj\\",
+        "outputPath": "C:\\Dev\\ConferencePlanner2019\\FrontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -121,6 +121,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             }
           },
           "imports": [

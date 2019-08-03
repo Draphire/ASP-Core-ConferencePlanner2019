@@ -2973,6 +2973,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Pages\\Session.cshtml",
+      "TargetPath": "Pages\\Session.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Pages\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"

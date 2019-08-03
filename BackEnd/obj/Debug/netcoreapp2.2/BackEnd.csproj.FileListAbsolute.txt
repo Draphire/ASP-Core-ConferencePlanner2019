@@ -1,0 +1,17 @@
+C:\dev\ConferencePlanner2019\BackEnd\bin\Debug\netcoreapp2.2\BackEnd.deps.json
+C:\dev\ConferencePlanner2019\BackEnd\bin\Debug\netcoreapp2.2\BackEnd.runtimeconfig.json
+C:\dev\ConferencePlanner2019\BackEnd\bin\Debug\netcoreapp2.2\BackEnd.runtimeconfig.dev.json
+C:\dev\ConferencePlanner2019\BackEnd\bin\Debug\netcoreapp2.2\BackEnd.dll
+C:\dev\ConferencePlanner2019\BackEnd\bin\Debug\netcoreapp2.2\BackEnd.pdb
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.csprojAssemblyReference.cache
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.csproj.CoreCompileInputs.cache
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.RazorAssemblyInfo.cache
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.RazorAssemblyInfo.cs
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.AssemblyInfoInputs.cache
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.AssemblyInfo.cs
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.RazorTargetAssemblyInfo.cache
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.dll
+C:\dev\ConferencePlanner2019\BackEnd\obj\Debug\netcoreapp2.2\BackEnd.pdb
+C:\Dev\ConferencePlanner2019\backend\bin\Debug\netcoreapp2.2\ConferenceDTO.dll
+C:\Dev\ConferencePlanner2019\backend\bin\Debug\netcoreapp2.2\ConferenceDTO.pdb
+C:\Dev\ConferencePlanner2019\backend\obj\Debug\netcoreapp2.2\BackEnd.csproj.CopyComplete

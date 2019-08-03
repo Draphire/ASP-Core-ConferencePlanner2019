@@ -15,8 +15,18 @@ namespace FrontEnd.Services
 
         public ApiClient(HttpClient httpClient)
         {
+            var baseaddress = httpClient.BaseAddress;
+            HttpClientHandler clientHandler = new HttpClientHandler();
+            clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+        
+            // Pass the handler to httpclient(from you are calling api)
+            httpClient = new HttpClient(clientHandler);
 
+
+            httpClient.BaseAddress = baseaddress;
+               
             _httpClient = httpClient;
+
             //   _clientFactory = clientFactory;
             //  _httpClient = _clientFactory.CreateClient("HttpClientWithSSLUntrusted");
      
@@ -95,14 +105,14 @@ namespace FrontEnd.Services
         {
             // var response = await _httpClient.GetAsync("/api/sessions");
 
-          HttpClientHandler clientHandler = new HttpClientHandler();
-        clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
+        //   HttpClientHandler clientHandler = new HttpClientHandler();
+        // clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
         
-        // Pass the handler to httpclient(from you are calling api)
-         _httpClient = new HttpClient(clientHandler);
+        // // Pass the handler to httpclient(from you are calling api)
+        //  _httpClient = new HttpClient(clientHandler);
          
-            // var response = await _httpClient.GetAsync("/api/sessions");
-                var response = await _httpClient.GetAsync("https://localhost:5001/api/sessions");
+            var response = await _httpClient.GetAsync("/api/sessions");
+                // var response = await _httpClient.GetAsync("https://localhost:5001/api/sessions");
 
 
             response.EnsureSuccessStatusCode();
